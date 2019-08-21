@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClubMember">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/brand"
+            android:layout_width="162.83dp"
+            android:layout_height="48dp"
+            android:src="@drawable/flogo"
+            android:layout_marginLeft="67dp"
+            android:layout_marginRight="145.17dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"/>
+        <ImageView
+            android:id="@+id/user"
+            android:layout_width="32.02dp"
+            android:layout_height="33.97dp"
+            android:src="@drawable/avatar"
+            android:layout_marginLeft="315dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginBottom="22.97dp"
+            android:layout_marginRight="27.98dp"/>
+        <ImageView
+            android:id="@+id/threeline"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:src="@drawable/line"
+            android:background="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="328dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="31dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/profilepic"/>
+
+        <TextView
+            android:id="@+id/registered"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:text="REGISTERED"
+            android:textSize="15dp"
+            android:layout_marginStart="246dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/numberstroke"/>
+
+        <TextView
+            android:id="@+id/webdevelopment"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:text=" WEB DEVELOPMENT "
+            android:textSize="15dp"
+            android:layout_marginStart="246dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/numberstroke"
+            />
+
+        <Button
+            android:id="@+id/editprofile"
+            android:layout_width="135dp"
+            android:layout_height="30dp"
+            android:text="EDIT PROFILE"
+            android:layout_marginStart="246dp"
+            android:paddingLeft="4dp"
+            android:layout_marginTop="105dp"
+            android:textColor="@color/blue"
+            android:background="@drawable/numberstroke"
+            android:drawableRight="@drawable/settings"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:id="@+id/number"
+            android:text="970XXXXXXX"
+            android:textSize="15sp"
+            android:layout_marginTop="185dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/numberstroke"/>
+
+        <TextView
+            android:layout_width="153dp"
+            android:layout_height="30dp"
+            android:text="Johnman Nequin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="240dp"/>
+
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:id="@+id/username"
+            android:text="itsmannequin@look.com"
+            android:textSize="15sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/numberstroke"/>
+
+        <TextView
+            android:id="@+id/profilename"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:text=" @itsmannequin"
+            android:textSize="15sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/numberstroke"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="347dp"
+        android:layout_height="343dp"
+        android:background="@drawable/rounded_text1"
+        android:layout_marginStart="30dp"
+        >
+        <TextView
+            android:layout_width="151dp"
+            android:layout_height="70dp"
+            android:id="@+id/member"
+            android:text="@string/you_re_a_club_member"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="61dp"/>
+        
+        <TextView
+            android:layout_width="237dp"
+            android:layout_height="40dp"
+            android:id="@+id/memberdesc"
+            android:textColor="@color/white"
+            android:text="@string/a_part_of_unique_family_here_at_fountane_clubs_gitam"
+            android:textSize="15sp"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="27dp"/>
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="90dp"
+            android:id="@+id/membering"
+            android:src="@drawable/member"
+            android:layout_marginTop="208dp"
+            android:layout_marginStart="116dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
+

@@ -1,24 +1,8 @@
 <resources>
     <string name="app_name">FountaneClub</string>
     <string name="name_contact"><![CDATA[NAME &; CONTACT]]></string>
+    <string name="you_re_a_club_member">You\'re a Club Member!</string>
+    <string name="a_part_of_unique_family_here_at_fountane_clubs_gitam">A part of unique family here at Fountane Clubs Gitam</string>
 
-    <string-array name="First_Year">
-        <item>2016</item>
-        <item>2017</item>
-        <item>2018</item>
-        <item>2019</item>
-        <item>2020</item>
-        <item>2021</item>
 
-    </string-array>
-
-    <string-array name="Last_Year">
-        <item>2020</item>
-        <item>2020</item>
-        <item>2020</item>
-        <item>2020</item>
-        <item>2020</item>
-        <item>2020</item>
-
-    </string-array>
 </resources>
