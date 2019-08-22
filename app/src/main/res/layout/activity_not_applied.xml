@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,32 +13,35 @@
         android:orientation="vertical" >
 
         <ImageView
+            android:contentDescription="@string/company"
             android:id="@+id/brand"
             android:layout_width="162.83dp"
             android:layout_height="48dp"
             android:src="@drawable/flogo"
-            android:layout_marginLeft="67dp"
-            android:layout_marginRight="145.17dp"
+            android:layout_marginStart="67dp"
+            android:layout_marginEnd="145.17dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="15dp"/>
         <ImageView
+            android:contentDescription="@string/userlogo"
             android:id="@+id/user"
-            android:layout_width="32.02dp"
-            android:layout_height="33.97dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/avatar"
-            android:layout_marginLeft="315dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="22.97dp"
-            android:layout_marginRight="27.98dp"/>
+            android:layout_marginEnd="27.98dp"/>
         <ImageView
+            android:contentDescription="@string/lineee"
             android:id="@+id/threeline"
-            android:layout_width="29dp"
-            android:layout_height="20dp"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
             android:src="@drawable/line"
             android:background="#FFFFFF"
-            android:layout_marginTop="34dp"
-            android:layout_marginRight="328dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="328dp"
+            android:layout_marginStart="10dp"
             android:layout_marginBottom="31dp"
             />
 
@@ -54,6 +56,7 @@
 
 
         <ImageView
+            android:contentDescription="@string/profilepicture"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_marginTop="20dp"
@@ -64,8 +67,8 @@
           android:id="@+id/registered"
           android:layout_width="90dp"
           android:layout_height="30dp"
-          android:text="REGISTERED"
-          android:textSize="15dp"
+          android:text="@string/registered"
+          android:textSize="15sp"
           android:layout_marginStart="246dp"
           android:layout_marginTop="25dp"
           android:background="@drawable/numberstroke"/>
@@ -74,8 +77,8 @@
           android:id="@+id/webdevelopment"
           android:layout_width="160dp"
           android:layout_height="30dp"
-          android:text=" WEB DEVELOPMENT "
-          android:textSize="15dp"
+          android:text="@string/web_development"
+          android:textSize="15sp"
           android:layout_marginStart="246dp"
           android:layout_marginTop="65dp"
           android:background="@drawable/numberstroke"
@@ -84,20 +87,21 @@
           android:id="@+id/editprofile"
           android:layout_width="135dp"
           android:layout_height="30dp"
-          android:text="EDIT PROFILE"
+          android:text="@string/edit_profile"
           android:layout_marginStart="246dp"
-          android:paddingLeft="4dp"
+          android:paddingStart="4dp"
+          android:paddingEnd="10dp"
           android:layout_marginTop="105dp"
           android:textColor="@color/blue"
           android:background="@drawable/numberstroke"
-          android:drawableRight="@drawable/settings"
+          android:drawableEnd="@drawable/settings"
           />
 
       <TextView
           android:layout_width="120dp"
           android:layout_height="30dp"
           android:id="@+id/number"
-          android:text="970XXXXXXX"
+          android:text="@string/_970xxxxxxx"
           android:textSize="15sp"
           android:layout_marginTop="185dp"
           android:layout_marginStart="40dp"
@@ -106,7 +110,7 @@
       <TextView
           android:layout_width="153dp"
           android:layout_height="30dp"
-          android:text="Johnman Nequin"
+          android:text="@string/johnman_nequin"
           android:textSize="20sp"
           android:textStyle="bold"
           android:layout_marginStart="40dp"
@@ -116,7 +120,7 @@
            android:layout_width="180dp"
            android:layout_height="30dp"
            android:id="@+id/username"
-           android:text="itsmannequin@look.com"
+           android:text="@string/itsmannequin_look_com"
            android:textSize="15sp"
            android:layout_marginStart="40dp"
            android:layout_marginTop="280dp"
@@ -126,7 +130,7 @@
           android:id="@+id/profilename"
           android:layout_width="180dp"
           android:layout_height="30dp"
-          android:text=" @itsmannequin"
+          android:text="@string/itsmannequin"
           android:textSize="15sp"
           android:layout_marginStart="40dp"
           android:layout_marginTop="320dp"
@@ -147,13 +151,14 @@
             android:layout_width="175dp"
             android:layout_height="75dp"
             android:id="@+id/notapply"
-            android:text="You've not applied yet."
+            android:text="@string/you_ve_not_applied_yet"
             android:textColor="@color/white"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:layout_marginStart="27dp"
             android:layout_marginTop="60dp"
             />
         <ImageView
+            android:contentDescription="@string/applyit"
             android:layout_width="65dp"
             android:layout_height="79dp"
             android:id="@+id/info"
@@ -163,8 +168,8 @@
         <TextView
             android:layout_width="237dp"
             android:layout_height="72dp"
-            android:text="Apply to become a part of our unique family at Fountane Clubs GITAM."
-            android:textSize="20dp"
+            android:text="@string/apply_to_become_a_part_of_our_unique_family_at_fountane_clubs_gitam"
+            android:textSize="20sp"
             android:textColor="@color/white"
             android:layout_marginTop="150dp"
             android:layout_marginStart="27dp"
@@ -176,7 +181,7 @@
             android:layout_marginTop="262dp"
             android:layout_marginStart="129dp"
             android:textSize="15sp"
-            android:text="APPLY NOW"
+            android:text="@string/apply_now"
             android:textColor="@color/blue"
             android:background="@drawable/roundedwhite"
             />

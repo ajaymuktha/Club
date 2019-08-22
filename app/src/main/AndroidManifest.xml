@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ClubMember"></activity>
+        <activity android:name=".DomainActivity"></activity>
+        <activity android:name=".ClubMember" />
         <activity android:name=".RejectedApplication" />
         <activity android:name=".PendingReview" />
         <activity android:name=".NotApplied" />

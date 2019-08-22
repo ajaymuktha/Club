@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="347dp"
+        android:layout_height="343dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/rounded_text1"
+        android:layout_marginBottom="234dp"
+        >
+        <Button
+            android:id="@+id/txtclose"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:text="@string/x"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginStart="307dp"
+            android:background="@drawable/rounded_text1"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/submission"
+            android:layout_width="169dp"
+            android:layout_height="99dp"
+            android:text="@string/application_submitted_successfully"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_marginTop="55dp"
+            android:layout_marginStart="37dp"
+            />
+        <ImageView
+            android:contentDescription="@string/succeesfulsubmission"
+            android:layout_width="82dp"
+            android:layout_height="75dp"
+            android:src="@drawable/submitted"
+            android:layout_marginStart="222dp"
+            android:layout_marginTop="66.39dp"
+            android:layout_marginBottom="202dp"
+            android:layout_marginEnd="43dp"
+            />
+
+       <TextView
+           android:layout_width="303dp"
+           android:layout_height="60dp"
+           android:id="@+id/subdesc"
+           android:text="@string/lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_suspendisse_porta_erat_et_nulla_ornare_eu_sagittis_diam_tempor"
+           android:textColor="@color/white"
+           android:textSize="15sp"
+           android:layout_marginStart="21.5dp"
+           android:layout_marginTop="184.5dp"
+           android:layout_marginBottom="106.5dp"
+           android:layout_marginEnd="20.5sp"
+           />
+        
+        <Button
+            android:onClick="showpopup"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:id="@+id/checkstatus"
+            android:text="@string/check_application_status"
+            android:textSize="15sp"
+            android:layout_marginTop="289dp"
+            android:layout_marginStart="33dp"
+            android:background="@drawable/roundedwhite"
+            />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

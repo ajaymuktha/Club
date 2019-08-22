@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:contentDescription="@string/company"
+            android:id="@+id/brand"
+            android:layout_width="162.83dp"
+            android:layout_height="48dp"
+            android:src="@drawable/flogo"
+            android:layout_marginStart="67dp"
+            android:layout_marginEnd="145.17dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"/>
+        <ImageView
+            android:contentDescription="@string/userlogo"
+            android:id="@+id/user"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/avatar"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="22.97dp"
+            android:layout_marginEnd="27.98dp"/>
+        <ImageView
+            android:contentDescription="@string/linee"
+            android:id="@+id/threeline"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/line"
+            android:background="#FFFFFF"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="328dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="31dp"
+            />
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+       >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="243dp"
+                android:layout_height="26dp"
+                android:textSize="12sp"
+                android:layout_marginStart="26dp"
+                android:text="@string/department_of"
+                android:textColor="#3F3D56"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="162dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textViewShortDesc"
+                android:layout_width="214dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="33dp"
+                android:text="@string/user_experience"
+                android:layout_marginBottom="129dp"
+                android:textColor="@color/lightblack"
+                android:textSize="25sp"
+                />
+
+
+            <ImageView
+                android:contentDescription="@string/experience"
+                android:id="@+id/imageView"
+                android:layout_width="175.87dp"
+                android:layout_height="84dp"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/user_experience"
+                android:layout_marginStart="129.21dp"
+                android:layout_marginEnd="29.92dp"
+                 />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
