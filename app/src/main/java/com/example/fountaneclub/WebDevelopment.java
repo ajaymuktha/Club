@@ -27,10 +27,21 @@ public class WebDevelopment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_development);
 
+        Button button2 = (Button) findViewById(R.id.git);
+
         txt_pathShow  = (TextView)findViewById(R.id.format);
         btn_filepicker = (Button)findViewById(R.id.upload);
 
     myDialog = new Dialog(this);
+
+
+    button2.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent  int1 = new Intent(WebDevelopment.this,GitamWeb.class);
+            startActivity(int1);
+        }
+    });
 
 
     }

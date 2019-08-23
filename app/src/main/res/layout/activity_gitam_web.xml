@@ -171,6 +171,7 @@
             />
         
         <Button
+            android:id="@+id/otherbtn"
             android:layout_width="80dp"
             android:layout_height="30dp"
             android:text="@string/other"

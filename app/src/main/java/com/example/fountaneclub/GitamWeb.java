@@ -14,7 +14,6 @@ public class GitamWeb extends AppCompatActivity {
 
 
 
-
     TextView txt_pathShow;
     Button btn_filepicker;
     Intent myFileIntent;
@@ -28,13 +27,25 @@ public class GitamWeb extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gitam_web);
 
+        Button button = (Button) findViewById(R.id.otherbtn);
 
         txt_pathShow  = (TextView)findViewById(R.id.format);
         btn_filepicker = (Button)findViewById(R.id.upload);
 
         myDialog = new Dialog(this);
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent int1  = new Intent(GitamWeb.this,WebDevelopment.class);
+                startActivity(int1);
+            }
+        }); {
+
+        }
+
     }
+
 
     public void showpopup(View view) {
         TextView txtclose;
